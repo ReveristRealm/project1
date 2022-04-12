@@ -1,0 +1,57 @@
+body{
+  background-color: #6B705C;
+}
+.title{
+  color: #CB997E;
+  text-shadow: 2px 2px 1px black;
+  text-align:center;
+  text-decoration-line: overline;
+  font-size: 40px;
+}
+.subtitle{
+  color: #CB997E;
+  text-shadow: 1px 1px 1px black;
+  text-align:center;
+  text-decoration-line: underline;
+  font-size: 21px;
+}
+.container{
+  width:70%;
+  height: 1000px;
+  border: 10px black;
+  border-style: solid;
+  margin:auto;
+  padding: 10px;
+  background-color: #FFE8D6;
+}
+.score{
+  height: 120px;
+  width:200px;
+  float: left;
+  flex-wrap: wrap;
+  align-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #DDBEA9;
+}
+.reset{
+  height: 80px;
+  width:150px;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  border-radius:10px;
+  background-color:#DDBEA9 ;
+}
+.Guess{
+  height: 500px;
+  width:60%;
+  margin: auto;
+  clear:both;
+  border-radius: 10px;
+  background-color:#A5A58D ;
+  box-shadow: 10px;
+}
