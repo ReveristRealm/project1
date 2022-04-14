@@ -1,5 +1,6 @@
 body{
   background-color: #6B705C;
+  text-align: center;
 }
 .title{
   color: #CB997E;
@@ -18,8 +19,9 @@ body{
 .container{
   width:70%;
   height: 1000px;
-  border: 10px black;
+  border: 3px black;
   border-style: solid;
+  border-radius: 10px;
   margin:auto;
   padding: 10px;
   background-color: #FFE8D6;
@@ -33,6 +35,8 @@ body{
   box-sizing: border-box;
   border-radius: 10px;
   background-color: #DDBEA9;
+  border: 3px black;
+  border-style: solid;
 }
 .reset{
   height: 80px;
@@ -45,6 +49,8 @@ body{
   box-sizing: border-box;
   border-radius:10px;
   background-color:#DDBEA9 ;
+  border: 3px black;
+  border-style: solid;
 }
 .Guess{
   height: 500px;
@@ -54,4 +60,30 @@ body{
   border-radius: 10px;
   background-color:#A5A58D ;
   box-shadow: 10px;
+  align-items: center;
+  margin-top: 160px;
+  border: 3px black;
+  border-style: solid;
+}
+.input{
+  border-radius:10px;
+  height: 40px;
+  margin-top: 5px;
+  background-color: #DDBEA9;
+}
+.btn1{
+  margin-top: 10px;
+  border-radius: 10px;
+  width:100px;
+}
+.history{
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  border: 3px black;
+  border-style: solid;
+  background-color: #DDBEA9;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 12px;
 }
